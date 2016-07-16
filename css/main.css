@@ -1,0 +1,99 @@
+.wrapper {
+    min-height: 100%;
+    margin: 0px auto -50px;
+}
+
+header {
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Jomhuria, cursive;
+    font-size: 3.5rem;
+    float: left;
+    margin: auto 15px;
+}
+
+header > p {
+    float: right;
+    font-family: "Slabo 27px", serif;
+    font-size: 1rem;
+    margin: 20px 15px auto;
+}
+
+p {
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid rgb(232, 149, 47);
+}
+
+section {
+    width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    font-family: "Slabo 27px", serif;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2::after {
+    content: "";
+    display: table;
+    width: 25%;
+    margin: 10px auto;
+    border-bottom: 1px solid rgb(13, 12, 12);
+}
+
+ul {
+    width: 75%;
+    margin: 25px auto;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+li {
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+
+footer, .push {
+    height: 50px;
+}
+
+footer, .push {
+    height: 50px;
+}
+<style>…</style>
+footer {
+    width: 1000px;
+    margin: auto;
+}
+
+footer::before {
+    content: "";
+    display: table;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: 1px solid rgb(13, 12, 12);
+}
+
+footer > p {
+    margin-left: 25px;
+}
+
+
+
